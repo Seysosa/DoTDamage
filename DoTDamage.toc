@@ -1,0 +1,32 @@
+## Interface: 16001
+## Title: DoTDamage
+## Notes: Remaining DoT damage with an in-game settings window, preview and appearance profiles. Minimap button or /dot.
+## Author: Sebs1337
+## Version: 0.6.0-alpha.23
+## X-License: MIT
+## SavedVariables: DoTDamageOptions, DoTDamageDB
+## SavedVariablesPerCharacter: DoTDamageState, DoTDamageReport, DoTDamageCharacterDB, DoTDamageDiagnostics
+
+Runtime/Diagnostics.lua
+Domain/Forecast.lua
+Data/SpellFacts.lua
+Domain/SpellCatalog.lua
+Domain/SpellDescription.lua
+Client/WowApi.lua
+Runtime/TickLearning.lua
+Runtime/CastOutcomes.lua
+Runtime/TickEvidence.lua
+Runtime/Tracking.lua
+Runtime/Events.lua
+Display/Frames.lua
+Display/Overlay.lua
+Runtime/Display.lua
+Settings/Store.lua
+UI/Theme.lua
+UI/Translations.lua
+UI/Locale.lua
+UI/Tooltips.lua
+UI/FramePicker.lua
+UI/Controls.lua
+UI/SettingsWindow.lua
+Bootstrap.lua
